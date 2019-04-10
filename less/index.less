@@ -59,13 +59,46 @@ html, body {
 
 .center() {
 	display: flex;
+	flex-direction: column;
 	margin: 0 auto;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
+}
+
+img {
+	width: 100%;
+}
+
+.pic {
+	width: 50%;
+	height: 50%;
 }
 
 .container {
 	.center;
-	width: 100%;
-	max-width: 1600px;
+}
+
+.header {
+	.center;
+}
+
+.intro {
+	.center;
+	width: 60%;
+
+	span {
+		.center;
+	}
+}
+
+.skills {
+	.center;
+}
+
+.workHistory {
+	.center;
+}
+
+.contact {
+	.center;
 }
