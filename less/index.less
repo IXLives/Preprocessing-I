@@ -57,3 +57,108 @@ html, body {
     height: 100%;
 }
 
+/* MY CODE BELOW */
+
+@linkColor: #516444; 
+
+.center() {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.borderPadding() {
+	border: 1px solid @linkColor;
+	border-radius: 2%;
+	padding: 1%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+img {
+	width: 100%;
+}
+
+.pic {
+	width: 50%;
+	height: 50%;
+}
+
+.container {
+	.center;
+	width: 100%;
+}
+
+.header {
+	.center;
+	width: 40%;
+	text-align: center;
+	.borderPadding;
+
+	h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 2rem;
+		margin: 1%;
+	}
+
+	h2 {
+		font-family: 'Indie Flower', cursive;
+		margin: 1%;
+		font-size: 1.5rem;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 1%;
+		padding: 1%;
+	}
+
+	ul li {
+		display: inline;
+		margin: 1%;
+		padding: 1%;
+	}
+
+	ul li a {
+		list-style-type: none;
+		font-family: 'Indie Flower', cursive;
+		color: @linkColor;
+	}
+
+	ul li a:hover {
+		color: black;
+	}
+}
+
+.intro {
+	.center;
+	width: 60%;
+	align-items: center;
+
+	span {
+		.center;
+		align-items: center;
+	}
+}
+
+.skills {
+	.center;
+	.borderPadding;
+	width: 75%;
+	text-align: center;
+}
+
+.workHistory {
+	.center;
+	.borderPadding;
+	width: 75%;
+	text-align: center;
+}
+
+.contact {
+	.center;
+	.borderPadding;
+	width: 50%;
+	text-align: center;
+}
