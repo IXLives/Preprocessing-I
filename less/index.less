@@ -57,12 +57,15 @@ html, body {
     height: 100%;
 }
 
+/* MY CODE BELOW */
+
+@linkColor: #516444; 
+
 .center() {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
 	justify-content: center;
-	align-items: center;
 }
 
 img {
@@ -80,28 +83,55 @@ img {
 
 .header {
 	.center;
+	text-align: center;
+
+	ul {
+		list-style-type: none;
+		margin: 1%;
+		padding: 1%;
+	}
+
+	ul li {
+		display: inline;
+		margin: 1%;
+		padding: 1%;
+	}
+
+	ul li a {
+		list-style-type: none;
+		color: @linkColor;
+	}
+
+	ul li a:hover {
+		color: black;
+	}
 }
 
 .intro {
 	.center;
 	width: 60%;
+	align-items: center;
 
 	span {
 		.center;
+		align-items: center;
 	}
 }
 
 .skills {
 	.center;
 	width: 50%;
+	text-align: center;
 }
 
 .workHistory {
 	.center;
-	width: 50%
+	width: 50%;
+	text-align: center;
 }
 
 .contact {
 	.center;
 	width: 50%;
+	text-align: center;
 }

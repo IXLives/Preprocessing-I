@@ -134,6 +134,7 @@ html,
 body {
   height: 100%;
 }
+/* MY CODE BELOW */
 img {
   width: 100%;
 }
@@ -146,22 +147,38 @@ img {
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
 }
 .header {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+.header ul {
+  list-style-type: none;
+  margin: 1%;
+  padding: 1%;
+}
+.header ul li {
+  display: inline;
+  margin: 1%;
+  padding: 1%;
+}
+.header ul li a {
+  list-style-type: none;
+  color: #516444;
+}
+.header ul li a:hover {
+  color: black;
 }
 .intro {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
   width: 60%;
+  align-items: center;
 }
 .intro span {
   display: flex;
@@ -175,22 +192,22 @@ img {
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
   width: 50%;
+  text-align: center;
 }
 .workHistory {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
   width: 50%;
+  text-align: center;
 }
 .contact {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
   width: 50%;
+  text-align: center;
 }
