@@ -176,6 +176,7 @@ img {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 .workHistory {
   display: flex;
@@ -183,6 +184,7 @@ img {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 .contact {
   display: flex;
@@ -190,4 +192,5 @@ img {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
