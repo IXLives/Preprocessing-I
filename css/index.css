@@ -147,13 +147,30 @@ img {
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
+  width: 100%;
 }
 .header {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
+  width: 40%;
   text-align: center;
+  border: 1px solid #516444;
+  border-radius: 2%;
+  padding: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+.header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin: 1%;
+}
+.header h2 {
+  font-family: 'Indie Flower', cursive;
+  margin: 1%;
+  font-size: 1.5rem;
 }
 .header ul {
   list-style-type: none;
@@ -167,6 +184,7 @@ img {
 }
 .header ul li a {
   list-style-type: none;
+  font-family: 'Indie Flower', cursive;
   color: #516444;
 }
 .header ul li a:hover {
@@ -192,7 +210,12 @@ img {
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  width: 50%;
+  border: 1px solid #516444;
+  border-radius: 2%;
+  padding: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  width: 75%;
   text-align: center;
 }
 .workHistory {
@@ -200,7 +223,12 @@ img {
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  width: 50%;
+  border: 1px solid #516444;
+  border-radius: 2%;
+  padding: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  width: 75%;
   text-align: center;
 }
 .contact {
@@ -208,6 +236,11 @@ img {
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
+  border: 1px solid #516444;
+  border-radius: 2%;
+  padding: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
   width: 50%;
   text-align: center;
 }

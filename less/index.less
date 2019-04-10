@@ -68,6 +68,14 @@ html, body {
 	justify-content: center;
 }
 
+.borderPadding() {
+	border: 1px solid @linkColor;
+	border-radius: 2%;
+	padding: 1%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
 img {
 	width: 100%;
 }
@@ -79,11 +87,26 @@ img {
 
 .container {
 	.center;
+	width: 100%;
 }
 
 .header {
 	.center;
+	width: 40%;
 	text-align: center;
+	.borderPadding;
+
+	h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 2rem;
+		margin: 1%;
+	}
+
+	h2 {
+		font-family: 'Indie Flower', cursive;
+		margin: 1%;
+		font-size: 1.5rem;
+	}
 
 	ul {
 		list-style-type: none;
@@ -99,6 +122,7 @@ img {
 
 	ul li a {
 		list-style-type: none;
+		font-family: 'Indie Flower', cursive;
 		color: @linkColor;
 	}
 
@@ -120,18 +144,21 @@ img {
 
 .skills {
 	.center;
-	width: 50%;
+	.borderPadding;
+	width: 75%;
 	text-align: center;
 }
 
 .workHistory {
 	.center;
-	width: 50%;
+	.borderPadding;
+	width: 75%;
 	text-align: center;
 }
 
 .contact {
 	.center;
+	.borderPadding;
 	width: 50%;
 	text-align: center;
 }
